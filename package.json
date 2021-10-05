@@ -4,7 +4,10 @@
   "description": "Apollo Server",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "nodemon ./src/index.ts"
+    "start": "nodemon ./src/index.ts",
+    "download-schema": "apollo service:download --endpoint=http://localhost:4001 graphql-schema.json",
+    "codegen-apollo": "apollo codegen:generate --localSchemaFile=graphql-schema.json --target=typescript --includes=src/**/*.ts --tagName=gql --globalTypesFile=src/types/graphql-global-types.ts --namespace=gvlachos src/types",
+    "codegen-gql": "graphql-codegen --config codegen.yml"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,12 @@
     "graphql": "^15.6.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "2.2.0",
+    "@graphql-codegen/typescript": "2.2.2",
+    "@graphql-codegen/typescript-resolvers": "2.3.0",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@types/graphql": "^14.5.0",
+    "apollo": "^2.33.6",
     "nodemon": "^2.0.13",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3"

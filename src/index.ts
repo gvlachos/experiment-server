@@ -1,13 +1,15 @@
 import { ApolloServer } from "apollo-server";
-import { typeDefs } from "./typedefs";
+import { typeDef as Constants } from "./graphql/constants.graphql";
+import { typeDef as Types } from "./graphql/types.graphql";
+import { typeDef as Queries } from "./graphql/queries.graphql";
 import { resolvers } from "./resolvers";
 
 const server = new ApolloServer({
-  typeDefs,
+  typeDefs: [Constants, Types, Queries],
   resolvers,
   mockEntireSchema: false
 });
 
-server.listen(4001).then(({ url }) => {
+server.listen(4000).then(({ url }) => {
   console.log(`Server ready at ${url}`);
 });
