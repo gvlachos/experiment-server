@@ -69,4 +69,8 @@ Used [GraphQL code generator](https://www.graphql-code-generator.com) instead of
 
 [Modularizing your GraphQL schema code](https://www.apollographql.com/blog/backend/schema-design/modularizing-your-graphql-schema-code)
 
+[Explaining GraphQL Connections](https://www.apollographql.com/blog/graphql/explaining-graphql-connections)
+
+[Demystifying GraphQL Connections](https://andrewingram.net/posts/demystifying-graphql-connections)
+
 [Redux to Apollo: Data Access Patterns](https://www.nerdwallet.com/blog/engineering/redux-to-apollo-data-access-patterns)
