@@ -1,6 +1,3 @@
-graphql.schema.json
-/src/generated
-
 # compiled output
 /dist
 /node_modules
