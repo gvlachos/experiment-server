@@ -2,12 +2,6 @@
 
 Based on the [egghead.io](https://egghead.io) course: [Designing GraphQL Schemas](https://egghead.io/courses/designing-graphql-schemas-99db) (membereship required)
 
-On [Relay Cursor Connections Specification](https://facebook.github.io/relay/graphql/connections.htm)
-
-- [Explaining GraphQL Connections](https://www.apollographql.com/blog/graphql/explaining-graphql-connections)
-
-- [Demystifying GraphQL Connections](https://andrewingram.net/posts/demystifying-graphql-connections/)
-
 ## Queries
 
 ```graphql
@@ -69,8 +63,10 @@ Used [GraphQL code generator](https://www.graphql-code-generator.com) instead of
 
 [Modularizing your GraphQL schema code](https://www.apollographql.com/blog/backend/schema-design/modularizing-your-graphql-schema-code)
 
-[Explaining GraphQL Connections](https://www.apollographql.com/blog/graphql/explaining-graphql-connections)
-
-[Demystifying GraphQL Connections](https://andrewingram.net/posts/demystifying-graphql-connections)
-
 [Redux to Apollo: Data Access Patterns](https://www.nerdwallet.com/blog/engineering/redux-to-apollo-data-access-patterns)
+
+On [Relay Cursor Connections Specification](https://facebook.github.io/relay/graphql/connections.htm)
+
+- [Explaining GraphQL Connections](https://www.apollographql.com/blog/graphql/explaining-graphql-connections)
+
+- [Demystifying GraphQL Connections](https://andrewingram.net/posts/demystifying-graphql-connections/)
